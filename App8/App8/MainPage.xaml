@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App8"
+             BackgroundImage="background"
+             x:Class="App8.MainPage">
+
+    <AbsoluteLayout>
+        <Image Source="Background" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+
+        <Grid RowSpacing="0" BackgroundColor="Transparent"
+              AbsoluteLayout.LayoutFlags="All" 
+              AbsoluteLayout.LayoutBounds="0,0,1,1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+
+            <Frame Grid.Row="1" BackgroundColor="Transparent">
+                <Image  Source="lg" />
+            </Frame>
+
+            <Grid Grid.Row="3" Margin="0,20,0,0" RowSpacing="20" >
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Grid Alt Menu -->
+                <Grid Grid.Row="0" RowSpacing="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1" RowSpacing="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Text="USER NAME" HorizontalOptions="Center" TextColor="White" Opacity="0.7"/>
+                        <Entry Grid.Row="1" Placeholder="developersancho@gmail.com" PlaceholderColor="White"
+                           BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                    </Grid>
+                </Grid>
+                <!-- Grid Alt Menu -->
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Text="PASSWORD" HorizontalOptions="Center" TextColor="White" Opacity="0.7"/>
+                        <Entry Grid.Row="1" Placeholder="**********" PlaceholderColor="White" BackgroundColor="Transparent"
+                            HorizontalTextAlignment="Center" IsPassword="True" FontAttributes="Bold"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Button Text="Sign In" BackgroundColor="#ff2d55" TextColor="White" 
+                                HeightRequest="50" BorderRadius="20" FontAttributes="Bold"/>
+                        <Label Grid.Row="1" VerticalOptions="EndAndExpand" HorizontalOptions="Start"
+                           Text="Dont have an account?" TextColor="White" Opacity="0.5"/>
+                        <Label Grid.Row="1" VerticalOptions="EndAndExpand" HorizontalOptions="End"
+                           Text="Sign up" TextColor="White"/>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+        </Grid>
+
+
+
+    </AbsoluteLayout>
+
+
+
+</ContentPage>

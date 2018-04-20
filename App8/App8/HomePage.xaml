@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.HomePage">
+
+    <AbsoluteLayout>
+        <Image Source="f4825d" Aspect="AspectFit" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+        <Grid RowSpacing="0"  AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- 1. KOLON -->
+                <Grid Grid.Column="0" RowSpacing="40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Frame Margin="10,0,0,0" BackgroundColor="White" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand" 
+                               IsClippedToBounds="False" HasShadow="True" CornerRadius="20" >
+
+                            <Label Text="Shipment Track" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"
+                                   TextColor="#f4825d" FontAttributes="Italic" FontSize="Medium"/>
+
+                        </Frame>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Frame  Margin="10,0,0,0" BackgroundColor="White" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand"
+                                IsClippedToBounds="False" HasShadow="True" CornerRadius="20">
+                            <Label Text="Closest Branch" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"
+                                   TextColor="#f4825d" FontAttributes="Italic" FontSize="Medium"/>
+                        </Frame>
+                    </Grid>
+
+                </Grid>
+                <!-- 2. KOLON -->
+                <Grid Grid.Column="2" RowSpacing="40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Frame Margin="0,0,10,0" BackgroundColor="White" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand"
+                               IsClippedToBounds="False" HasShadow="True" CornerRadius="20">
+                            <Label Text="My Track" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"
+                                   TextColor="#f4825d" FontAttributes="Italic" FontSize="Medium"/>
+                        </Frame>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Frame Margin="0,0,10,0" BackgroundColor="White" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand"
+                               IsClippedToBounds="False" HasShadow="True" CornerRadius="20">
+                            <Label Text="Settings" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"
+                                   TextColor="#f4825d" FontAttributes="Italic" FontSize="Medium"/>
+                        </Frame>
+                    </Grid>
+
+                </Grid>
+
+
+            </Grid>
+
+
+        </Grid>
+    </AbsoluteLayout>
+
+</ContentPage>

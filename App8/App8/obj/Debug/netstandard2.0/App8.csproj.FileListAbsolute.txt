@@ -1,0 +1,12 @@
+C:\Users\mesutgenc\source\repos\App8\App8\App8\bin\Debug\netstandard2.0\App8.deps.json
+C:\Users\mesutgenc\source\repos\App8\App8\App8\bin\Debug\netstandard2.0\App8.dll
+C:\Users\mesutgenc\source\repos\App8\App8\App8\bin\Debug\netstandard2.0\App8.pdb
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.csproj.CoreCompileInputs.cache
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.App.xaml.g.cs
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.MainPage.xaml.g.cs
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.AssemblyInfoInputs.cache
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.AssemblyInfo.cs
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.dll
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.pdb
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.HomePage.xaml.g.cs
+C:\Users\mesutgenc\source\repos\App8\App8\App8\obj\Debug\netstandard2.0\App8.csprojResolveAssemblyReference.cache
